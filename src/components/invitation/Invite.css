@@ -5,7 +5,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 30%;
+  padding-top: 10%;
+  background-color: beige;
 }
 
 .flower {

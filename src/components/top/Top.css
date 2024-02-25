@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Diphylleia&family=Noto+Serif+KR&display=swap');
 
+.Top {
+  background-color: antiquewhite;
+  padding-bottom: 10%;
+}
+
 .responsive-image {
   max-width: 100%;
   height: auto;
 }
 
 .infoWrapp{
-  margin-left: 5%;
+  margin-left: 7%;
 }
 
 
