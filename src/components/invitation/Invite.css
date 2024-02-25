@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Serif+KR&display=swap');
+
+.Invite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30%;
+}
+
+.flower {
+  width: 15%;
+  height: auto;
+  margin-bottom: 10%;
+}
+
+p {
+  font-family: "Noto Serif KR", serif;
+}
+
+.subtitle {
+  font-size: 130%;
+  margin-bottom: 10%;
+}
+
+.story {
+  line-height: 2.2;
+  text-align: center;
+}
+
+.family {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.parents, .child {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.child {
+  margin-left: 10%;
+  
+}

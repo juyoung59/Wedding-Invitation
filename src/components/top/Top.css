@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Diphylleia&family=Noto+Serif+KR&display=swap');
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.infoWrapp{
+  margin-left: 5%;
+}
+
+
+p {
+  font-family: "Noto Serif KR", serif;
+}
+
+.title {
+  font-size: 150%;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.info {
+  font-size: 120%;
+  font-family: "Diphylleia", serif;
+  font-style: italic;
+  color: #C7A884;
+  position: relative;
+}
+
+.info::after {
+  content: '';
+  position: absolute;
+  top: 55%;
+  margin-left: 10px;
+  height: 1.8px;
+  width: 70%;
+  background-color: #7B7671;
+}
+
+.inform {
+  font-size: 90%;
+}
