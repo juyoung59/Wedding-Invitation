@@ -1,0 +1,50 @@
+.Contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color: #F5F1EE;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.space-between-calls {
+  height: 20px;
+}
+
+.person {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.person p {
+  margin-right: 40%;
+}
+
+.call {
+  width: 12%;
+  height: auto;
+  margin-right: 5%;
+}
+
+.msg {
+  width: 12%;
+  height: auto;
+}
+
+.divider {
+  width: 70%;
+  height: 0.8px;
+  background-color: #A8A6A3;
+  border: none;
+  margin-top: 0.5%;
+}
