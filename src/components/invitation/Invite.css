@@ -11,17 +11,18 @@
 }
 
 .flower {
-  width: 15%;
+  width: 15vw;
   height: auto;
   margin-bottom: 10%;
 }
 
 p {
   font-family: "Noto Serif KR", serif;
+  font-size: 3.2vw;
 }
 
 .subtitle {
-  font-size: 130%;
+  font-size: 4.5vw;
   margin-bottom: 10%;
 }
 

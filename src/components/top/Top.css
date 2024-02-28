@@ -20,7 +20,7 @@ p {
 }
 
 .title {
-  font-size: 150%;
+  font-size: 4vw;
 }
 
 .bold-text {
@@ -28,7 +28,7 @@ p {
 }
 
 .info {
-  font-size: 120%;
+  font-size: 3.8vw;
   font-family: "Diphylleia", serif;
   font-style: italic;
   color: #C7A884;
@@ -46,5 +46,5 @@ p {
 }
 
 .inform {
-  font-size: 90%;
+  font-size: 3.2vw;
 }

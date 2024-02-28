@@ -5,7 +5,9 @@
   align-items: center;
   padding-top: 10%;
   padding-bottom: 10%;
-  background-color: #F5F1EE;
+  background-color: #F8F8F8;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .content {
@@ -16,14 +18,14 @@
 }
 
 .space-between-calls {
-  height: 20px;
+  height: 3.5vw;
 }
 
 .person {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 70vw;
 }
 
 .person p {
@@ -42,7 +44,7 @@
 }
 
 .divider {
-  width: 70%;
+  width: 65vw;
   height: 0.8px;
   background-color: #A8A6A3;
   border: none;

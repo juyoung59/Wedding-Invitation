@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@300&family=Noto+Serif+KR&display=swap');
+
+.Date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-image: url('../../img/datebackground.jpg');
+  background-size: cover;
+}
+
+.caltitle {
+  font-size: 4vw;
+  display: flex;
+  justify-content: center;
+}
+
+.cal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Noto Serif KR", serif;
+  font-size: 3.5vw;
+  border-spacing: 3.3vw;
+}
+
+.highlight {
+  width: 6vw;
+  height: 6vw;
+  border-radius: 50%;
+  background-color: #F5C4B3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cell {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.cal thead {
+  color: #C7A884;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: lighter;
+  border-spacing: 3.5vw;
+}
+
+
+.calendar {
+  padding: 5% 8% 5% 8%;
+  background-color: white;
+  border-radius: 2%;
+}
