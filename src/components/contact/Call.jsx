@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Contact.css';
 
 const Call = ({ name, phoneNum, callimage, msgimage }) => {
@@ -14,8 +14,8 @@ const Call = ({ name, phoneNum, callimage, msgimage }) => {
     <div className='content'>
       <div className='person'>
       <p>{name}</p>
-      <img className="call" onClick={handlePhoneClick} src={callimage}></img>
-      <img className="msg" onClick={handleMsgClick} src={msgimage}></img>
+      <img className="call" onClick={handlePhoneClick} src={callimage} alt='callimg'></img>
+      <img className="msg" onClick={handleMsgClick} src={msgimage} alt='msgimg'></img>
       </div>
       <hr className='divider'/>
     </div>

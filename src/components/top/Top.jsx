@@ -5,7 +5,7 @@ import firstImg from '../../img/pic1.jpg';
 function Top() {
   return (
     <div className="Top">
-      <img className="responsive-image" src={firstImg} alt="Mobile Image" />
+      <img className="weddingimg" src={firstImg} alt="weddingimg" />
       <div className="infoWrapp">
         <p className="title">김관우<br/> 이아영<br/> <span className="bold-text">결혼합니다!</span></p>
         <p className="info">info</p>
