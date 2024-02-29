@@ -30,6 +30,7 @@ p {
 .info {
   font-size: 3.8vw;
   font-family: "Diphylleia", serif;
+  font-weight: bold;
   font-style: italic;
   color: #C7A884;
   position: relative;
