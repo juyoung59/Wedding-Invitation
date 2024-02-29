@@ -12,7 +12,7 @@ function Date() {
       <p className="caltitle">2023. 12</p>
         <Calendar />
       </div>
-    </div>
+    </div> // 달력 제목 바꾸기!!
   );
 }
 
