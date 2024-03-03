@@ -11,10 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: "master"
-      - name: .env setting
-        run: |
-          echo "REACT_APP_KAKAO_API_KEY=${{ secrets.REACT_APP_KAKAO_API_KEY }}" >> .env
+          ref: "master"      
       - run: npm ci
       - run: npm run build
       - name: deploy to s3
@@ -22,6 +19,7 @@ jobs:
         with:
           args: --delete
         env:
+          REACT_APP_KAKAO_API_KEY: ${{ secrets.REACT_APP_KAKAO_API_KEY }}
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
