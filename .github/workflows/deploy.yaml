@@ -12,11 +12,13 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: "master"      
-      - run: npm ci
-      - run: npm run build
       - name: Set environment variables
         run: |
-          echo "REACT_APP_KAKAO_API_KEY=${{ secrets.REACT_APP_KAKAO_API_KEY }}" >> $GITHUB_ENV
+          echo "REACT_APP_KAKAO_API_KEY=${{ secrets.REACT_APP_KAKAO_API_KEY }}" >> .env.production
+        env:
+          REACT_APP_KAKAO_API_KEY: ${{ secrets.REACT_APP_KAKAO_API_KEY }}
+      - run: npm ci
+      - run: npm run build
       - name: deploy to s3
         uses: jakejarvis/s3-sync-action@master
         with:
