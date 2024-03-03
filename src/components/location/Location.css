@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@300&family=Noto+Serif+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR:wght@300&display=swap');
 
 .Location {
   display: flex;
@@ -25,7 +25,7 @@
 }
 
 .info-title {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
   font-weight: bold;
   font-size: 3vw;
   color: #302E2D;
@@ -35,7 +35,7 @@
   border: 2px solid #B0A99F;
   text-align: center;
   border-radius:5px;
-  padding: 1.3vw;
+  padding: 2vw;
 }
 
 .map-wrap {
@@ -61,11 +61,11 @@
 }
 
 .mapbtn-title {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Nanum Gothic", sans-serif;
   font-size: 2.8vw;
   font-weight: bold;
   color: #616161;
-  margin-top: 0;
+  margin-top: 1vw;
   text-align: center;
 }
 
