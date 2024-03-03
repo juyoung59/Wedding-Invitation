@@ -1,4 +1,7 @@
 import React, {useEffect} from 'react';
+import './Location.css';
+
+
 
 const {kakao} = window;
 
@@ -22,12 +25,24 @@ function Map () {
       });
 
       const infowindow = new kakao.maps.InfoWindow({
-        content: '<div style="width: 35vw; text-align: center; padding: 6px 0;">스카이컨벤션웨딩</div>'
+        content: '<span class="info-title">스카이컨벤션웨딩홀</span>',
       });
       infowindow.open(kakaomap, marker);
 
       kakaomap.setCenter(coords);
     }
+
+    const infoTitle = document.querySelectorAll('.info-title');
+    infoTitle.forEach(function(e) {
+        var w = e.offsetWidth + 10;
+        var ml = w/2;
+        e.parentElement.style.left = "50%";
+        e.parentElement.style.marginLeft = -ml+"px";
+        e.parentElement.style.width = w+"px";
+        e.parentElement.previousSibling.style.display = "none";
+        e.parentElement.parentElement.style.border = "0px";
+        e.parentElement.parentElement.style.background = "unset";
+    });
   })
   }, [])
   

@@ -15,8 +15,8 @@ function Location() {
       <Mapbnt />
       <p className="isshuttle">셔틀버스 이용 시</p>
       <div className="shuttle-wrap">
-        <p className="shuttle">- 춘천시외버스터미너(하차 후 길거너 벤츠코리아 앞 승차) →<br/>웨딩홀 : 매시 정각 출발<br/><br/><br/>
-        - 춘천역 (1번 출구 광장 앞 승차) → 웨딩홀 : 매시 20분 출발</p>
+        <p className="shuttle">- 춘천시외버스터미너(하차 후 길거너 벤츠코리아 앞 승차) <br/>→ 웨딩홀 : 매시 정각 출발<br/><br/><br/>
+        - 춘천역 (1번 출구 광장 앞 승차) <br/>→ 웨딩홀 : 매시 20분 출발</p>
       </div>
     </div>
   );

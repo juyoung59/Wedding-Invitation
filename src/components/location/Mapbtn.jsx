@@ -1,4 +1,8 @@
 import React from 'react';
+import tmap from '../../img/tmap.png';
+import atlan from '../../img/atlan.png';
+import naver from '../../img/naver.png';
+import kakao from '../../img/kakao.png';
 
 function Mapbtn () {
 
@@ -18,15 +22,27 @@ function Mapbtn () {
   };
 
   const handleKakaoSearch = () => {
-    window.open(`kakaomap://route?sp=${lat},${lon}&ep=${lat},${lon}`);
+    window.open(`kakaomap://route?ep=${lat},${lon}`);
   };
 
   return (
-    <div>
-      <button className='tmap' onClick={handleTmapSearch}>Tmap</button>
-      <button className='atlan' onClick={handleAtlanSearch}>Atlan</button>
-      <button className='naver' onClick={handleNaverSearch}>Naver</button>
-      <button className='kakao' onClick={handleKakaoSearch}>Kakao</button>
+    <div className='map-wrap'>
+      <div className='btn-title'>
+        <img className="mapbtn" onClick={handleTmapSearch} src={tmap} alt='tmap'></img>
+        <p className='mapbtn-title'>TMAP</p>
+      </div>
+      <div className='btn-title'>
+        <img className="mapbtn" onClick={handleAtlanSearch} src={atlan} alt='tmap'></img>
+        <p className='mapbtn-title'>ATLAN</p>
+      </div>
+      <div className='btn-title'>
+        <img className="mapbtn" onClick={handleNaverSearch} src={naver} alt='tmap'></img>
+        <p className='mapbtn-title'>NAVER</p>
+      </div>
+      <div className='last-btn-title'>
+        <img className="mapbtn" onClick={handleKakaoSearch} src={kakao} alt='tmap'></img>
+        <p className='mapbtn-title'>KAKAO</p>
+      </div>
     </div>
   );
 }
