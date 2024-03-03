@@ -5,8 +5,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
   background-image: url('../../img/datebackground.jpg');
   background-size: cover;
 }

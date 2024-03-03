@@ -1,0 +1,32 @@
+.Location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+  background-color: #F8F8F8;
+}
+
+.wedding-hall {
+  text-decoration: underline;
+}
+
+.map {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 75vw;
+  height: 90vw;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+}
+
+.shuttle-wrap {
+  width: 70vw;
+}
+
+.shuttle {
+  font-size: 2.5vw;
+  text-align: center;
+}
