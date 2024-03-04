@@ -1,0 +1,47 @@
+.Celebrate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+  background-color: #F8F8F8;
+}
+
+.cel-coment {
+  text-align: center;
+  margin-bottom: 10vw;
+}
+
+
+.account-table{
+  margin-top: 1vw;
+  border: 1px solid black;
+  border-radius: 3px;
+  display: flex;
+}
+
+.account-table td {
+  padding: 8px;
+}
+
+.account-table td.table-name {
+  width: 45vw;
+  border-right: 1px solid black;
+}
+
+.account-table td.table-account {
+  width: 8vw;
+  text-align: center;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  transform: translateY(-50%);
+  background-color: white;
+  width: 50vw;
+}

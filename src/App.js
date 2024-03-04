@@ -5,6 +5,7 @@ import Contact from './components/contact/Contact';
 import Date from './components/date/Date';
 import Gallery from './components/gallery/Gallery';
 import Location from './components/location/Location';
+import Celebrate from './components/celebrate/Celebrate';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Date />
       <Gallery />
       <Location />
+      <Celebrate />
     </div>
   );
 }
