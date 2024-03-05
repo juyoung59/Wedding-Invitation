@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Diphylleia&family=Noto+Serif+KR&display=swap');
+
 .Celebrate {
   display: flex;
   flex-direction: column;
@@ -13,6 +15,9 @@
   margin-bottom: 10vw;
 }
 
+.account-wrap {
+  position: relative;
+}
 
 .account-table{
   margin-top: 1vw;
@@ -23,9 +28,12 @@
 
 .account-table td {
   padding: 8px;
+  height: 5vw;
+  font-family: "Noto Serif KR", serif;
+  font-size: 3.2vw;
 }
 
-.account-table td.table-name {
+.account-table td.table-name {  
   width: 45vw;
   border-right: 1px solid black;
 }
@@ -33,15 +41,37 @@
 .account-table td.table-account {
   width: 8vw;
   text-align: center;
+  cursor: pointer;
 }
 
 .modal {
-  display: flex;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
   align-items: center;
   justify-content: center;
-  position: absolute;
   text-align: center;
-  transform: translateY(-50%);
   background-color: white;
   width: 50vw;
+  border-radius: 3vw;
+}
+
+.copy,
+.exit {
+  width: 25vw;
+  height: 8vw;
+  border: none;
+  cursor: pointer;
+  font-family: "Noto Serif KR", serif;
+}
+
+.copy {
+  background-color: #F5C4B3;
+  border-bottom-left-radius: 3vw;
+}
+
+.exit {
+  border-bottom-right-radius: 3vw;
 }

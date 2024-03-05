@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Diphylleia&family=Noto+Serif+KR&display=swap');
+
+.Wreath {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+  background-color: #f7f0eb;
+}
+
+.wreath-flower {
+  width: 18vw;
+  height: auto;
+  margin-bottom: 5vw;
+}
+
+.wreath-comment {
+  text-align: center;
+}
+
+.wreath-btn {
+  font-family: "Noto Serif KR", serif;
+  background: none;
+  padding: 2vw 5vw;
+  border-radius: 10vw;
+  border: 0.35vw solid #F7CAA8;
+  margin-top: 3vw;
+  cursor: pointer;
+}

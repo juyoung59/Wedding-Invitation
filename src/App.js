@@ -6,6 +6,7 @@ import Date from './components/date/Date';
 import Gallery from './components/gallery/Gallery';
 import Location from './components/location/Location';
 import Celebrate from './components/celebrate/Celebrate';
+import Wreath from './components/wreath/Wreath';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Gallery />
       <Location />
       <Celebrate />
+      <Wreath />
     </div>
   );
 }
