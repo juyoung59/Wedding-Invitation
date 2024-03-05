@@ -5,7 +5,7 @@ import flower from '../../img/wreath.png';
 function Wreath() {
 
   const handleOpenWreath = () => {
-    window.open(`https://agent.maruw.co.kr/iframe?url=https%3A%2F%2Fagent.maruw.co.kr%2Fmobile%2Fbojagicard%2Fproduct%3F`);
+    window.open(`https://www.1588-39000.com/?gad_source=1&gclid=CjwKCAiAopuvBhBCEiwAm8jaMZZYs_23-KYKf_gGzprPQHzqPm6HpYNBYfOzh37j67GNjNyAJjTtfRoCsC4QAvD_BwE`);
   };
 
   return (
