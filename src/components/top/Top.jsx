@@ -9,7 +9,7 @@ function Top() {
       <div className="TopImgContainer">
         <TopImg />
       </div>
-      <img className="hiddenImg" src={firstImg}/>
+      <img className="hiddenImg" src={firstImg} alt="hiddenImg"/>
       <div className="infoWrapp">        
         <p className="title">김관우<br/> 이아영<br/> <span className="bold-text">결혼합니다!</span></p>
         <p className="info">info</p>
