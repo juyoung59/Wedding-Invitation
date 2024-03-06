@@ -1,12 +1,16 @@
 import React from "react";
 import './Top.css';
-import firstImg from '../../img/pic1.jpg';
+import TopImg from './TopImg';
+import firstImg from '../../img/firstImg.jpeg';
 
 function Top() {
   return (
     <div className="Top">
-      <img className="weddingimg" src={firstImg} alt="weddingimg" />
-      <div className="infoWrapp">
+      <div className="TopImgContainer">
+        <TopImg />
+      </div>
+      <img className="hiddenImg" src={firstImg}/>
+      <div className="infoWrapp">        
         <p className="title">김관우<br/> 이아영<br/> <span className="bold-text">결혼합니다!</span></p>
         <p className="info">info</p>
         <p className="inform">

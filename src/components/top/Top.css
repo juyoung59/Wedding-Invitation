@@ -3,15 +3,36 @@
 .Top {
   background-color: #fdfcf5;
   padding-bottom: 10vw;
+  position: relative;
 }
 
-.weddingimg {
-  max-width: 100%;
+.image-slider {
+  position: relative;
+}
+
+.image-slider img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: auto;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.image-slider img.current {
+  opacity: 1;
+}
+
+.hiddenImg{
+  width: 100%;
+  height: auto;
+  visibility: hidden;
+  position: relative;
 }
 
 .infoWrapp{
-  margin-left: 7%;
+  margin-left: 7vw;
 }
 
 
@@ -20,7 +41,7 @@ p {
 }
 
 .title {
-  font-size: 4vw;
+  font-size: 5vw;  
 }
 
 .bold-text {
