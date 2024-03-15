@@ -1,0 +1,87 @@
+.Message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+  background-color: #F8F8F8;
+}
+
+ul{
+  padding-left: 0;
+}
+
+.post {
+  border: 1px solid black;
+  width: 70vw;
+  margin-bottom: 7vw;
+  border-radius: 10px;
+  padding: 3vw;
+  list-style: none;
+}
+
+.heart {
+  color: #FFB8B8;
+  margin-right: 1vw;
+  font-size: 4vw;
+  vertical-align: middle;
+}
+
+.name {
+  display: inline-block;
+  font-weight: bold;  
+}
+
+.date {
+  float: right;
+}
+
+.content-lines {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-line {
+  line-height: 1.7;
+  margin: 0;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: calc(100% - 10vw);
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5vw;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.input-container textarea {
+  width: 90vw;
+  height: 9vw;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Noto Serif KR", serif;
+  line-height: 7vw;
+}
+
+.input-container button {
+  width: 90vw;
+  height: 9vw;
+  margin-top: 2vw;
+  background-color: #FFB8B8;
+  color: #6E6E6E;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;  
+  box-sizing: border-box;
+  font-family: "Noto Serif KR", serif;
+}
+

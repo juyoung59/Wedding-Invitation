@@ -7,6 +7,7 @@ import Gallery from './components/gallery/Gallery';
 import Location from './components/location/Location';
 import Celebrate from './components/celebrate/Celebrate';
 import Wreath from './components/wreath/Wreath';
+import Message from './components/message/Message';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Location />
       <Celebrate />
       <Wreath />
+      <Message />
     </div>
   );
 }
