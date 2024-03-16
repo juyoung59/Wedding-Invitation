@@ -13,7 +13,7 @@
     <!-- 기타 메타태그 및 스크립트 등 -->
     <meta property="og:title" content="모바일 청첩장">
     <meta property="og:description" content="김관우❤️이아영의 결혼식에 초대합니다.">
-    <meta property="og:image" content="./mainimage.png">
+    <meta property="og:image" content="%PUBLIC_URL%/mainimage.png">
     <meta property="og:url" content="http://wedding-invitation-exp.s3-website.ap-northeast-2.amazonaws.com/">
 
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
@@ -33,8 +33,19 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    
     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=%REACT_APP_KAKAO_API_KEY%&libraries=services"></script>
+
+    <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.0/kakao.min.js" integrity="sha384-l+xbElFSnPZ2rOaPrU//2FF5B4LB8FiX5q4fXYTlfcG4PGpMkE1vcL7kNXI6Cci0" crossorigin="anonymous"></script>
+    <script>
+      // SDK를 초기화 합니다. 사용할 앱의 JavaScript 키를 설정해야 합니다.
+      Kakao.init('%REACT_APP_KAKAO_API_KEY%');
+  
+      // SDK 초기화 여부를 판단합니다.
+      console.log(Kakao.isInitialized());
+    </script>
+
     <title>모바일 청첩장</title>
   </head>
   <body>
