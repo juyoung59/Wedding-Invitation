@@ -8,6 +8,8 @@ import Location from './components/location/Location';
 import Celebrate from './components/celebrate/Celebrate';
 import Wreath from './components/wreath/Wreath';
 import Message from './components/message/Message';
+import Share from './components/sharelink/Share';
+import Bottom from './components/bottom/Bottom';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Celebrate />
       <Wreath />
       <Message />
+      <Share />
+      <Bottom />
     </div>
   );
 }

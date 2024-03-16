@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Nanum+Gothic&display=swap');
+
+.Bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vw;
+  padding-bottom: 38vw;
+  background-color: #020014;
+}
+.horizontal-line {
+  width: 80vw;
+  height: 0.1vw;
+  background-color: white;
+  border: none;
+}
+
+.bottom-text{
+  color: white;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 2.4vw;
+}
+
+.jy{
+  font-family: "Herr Von Muellerhoff", cursive;
+  margin-right: 2vw;
+}

@@ -14,10 +14,10 @@ ul{
 
 .post {
   border: 1px solid black;
-  width: 70vw;
+  width: 68vw;
   margin-bottom: 7vw;
   border-radius: 10px;
-  padding: 3vw;
+  padding: 2vw 5vw;
   list-style: none;
 }
 
@@ -30,7 +30,8 @@ ul{
 
 .name {
   display: inline-block;
-  font-weight: bold;  
+  font-weight: bold; 
+   
 }
 
 .date {
@@ -40,6 +41,7 @@ ul{
 .content-lines {
   display: flex;
   flex-direction: column;
+  margin-bottom: 3vw;
 }
 
 .content-line {
@@ -64,7 +66,7 @@ ul{
 
 .input-container textarea {
   width: 90vw;
-  height: 9vw;
+  height: 12vw;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
@@ -74,7 +76,7 @@ ul{
 
 .input-container button {
   width: 90vw;
-  height: 9vw;
+  height: 12vw;
   margin-top: 2vw;
   background-color: #FFB8B8;
   color: #6E6E6E;

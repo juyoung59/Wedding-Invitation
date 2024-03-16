@@ -1,0 +1,23 @@
+.Share {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+  background-color: #f7f0eb;
+}
+
+.ShareThis {
+  width: 10vw;
+}
+
+.Thank {
+  margin-top: 7vw;
+  margin-bottom: 2vw;
+  font-style: italic;
+}
+
+.Thank-heart {
+  font-size: 5vw;;
+}
